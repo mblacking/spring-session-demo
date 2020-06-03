@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    include: jdbc,redis
+  security:
+    user:
+      name: nqm
+      password: 123456
+
+
+
+
+
+
+
